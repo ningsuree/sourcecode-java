@@ -21,5 +21,13 @@ public class FizzBuzzTest {
         String result = fz.sendAndReturn(2);
         assertEquals("2", result);
     }
+    
+    @Test
+    public void เลขหนึ่งต้องได้ค่าเป็นสาม  ()     {
+        FizzBuzz3 fz = new FizzBuzz3();
+        
+        String result = fz.sendAndReturn(3);
+        assertEquals("3", result);
+    }
 
 }
